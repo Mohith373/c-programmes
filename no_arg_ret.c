@@ -1,5 +1,4 @@
-// C program to use function with
-// no argument and with return values
+
 #include <stdio.h>
 
 int sum()
