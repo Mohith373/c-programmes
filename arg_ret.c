@@ -1,10 +1,8 @@
-// C program to use function with
-// argument and with return values
+
 #include <stdio.h>
 
-int sum(int x, int y) { return x + y; }
-
-// Driver code
+int sum(int x, int y)
+{ return x + y; }
 int main()
 {
 	int x, y;
