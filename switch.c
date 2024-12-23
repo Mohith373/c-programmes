@@ -6,7 +6,7 @@ int main() {
     switch (var)
     {
     case 1:
-        printf("mohith is very good at ");
+        printf("mohith is very good at flirting.... ");
         break;
     case 2:
         printf("gopal raj is a very good director:");
