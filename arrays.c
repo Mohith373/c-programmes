@@ -37,7 +37,7 @@ int main() {
 
 #include <stdio.h>
 
-// ...existing code...
+// ...existing code...sum of elements of arrays programme
 
 int sumOfArray(int arr[], int n) {
     int sum = 0;
@@ -59,7 +59,7 @@ int main() {
 
 #include <stdio.h>
 
-// ...existing code...
+// ...existing code...ascending to desc or dec to asc
 
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n-1; i++) {
