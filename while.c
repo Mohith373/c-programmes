@@ -11,21 +11,19 @@ int main() {
 
   return 0;
 }
+
 #include <stdio.h>
 
 int main() {
-    int i = 1;  
-    printf("Print numbers from 1 to 10:\n");
+
+    // Loop variable declaration and initialization
+    int i = 0;
+  
+    // do while loop
     do {
-        printf("%d ", i); 
-        i++;  
-    } while (i <= 10);  
-    printf("\n");  
-    i = 10;  
-    printf("\nPrint numbers from 10 to 1:\n");
-    do {
-        printf("%d ", i);
-        i--;  
-    } while (i >= 1); 
-    return 0;  
+        printf("Geeks\n");
+        i++;
+    } while (i < 3);
+
+    return 0;
 }
