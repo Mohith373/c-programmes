@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
    char s[100];
    int i;
-   printf("\nEnter a string : ");
-   gets(s);
 
-   for (i = 0; s[i]!='\0'; i++) {
-      if(s[i] >= 'a' && s[i] <= 'z') {
-         s[i] = s[i] - 32; //small to capital
-      else(s[i]>='A'&&s[i]<=Z)
-         s[i]+=32;//capital to small
+   printf("Enter a string: ");
+   fgets(s, sizeof(s), stdin); // Safely get input
+
+   for (i = 0; s[i] != '\0'; i++) {
+      if (s[i] >= 'a' && s[i] <= 'z') {
+         s[i] -= 32; // Convert lowercase to uppercase
+      } else if (s[i] >= 'A' && s[i] <= 'Z') {
+         s[i] += 32; // Convert uppercase to lowercase
       }
    }
-   printf("\nString in Upper Case = %s", s);
-   printf("string in lower case=%s",s);
+
+   printf("String after case conversion: %s", s);
    return 0;
 }
